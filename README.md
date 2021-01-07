@@ -1,7 +1,5 @@
 # soccer-pifu
 
-20160463 성해빈
-
 
 
 This repo is an example of applying pifuHD in soccer videos.
@@ -151,4 +149,5 @@ using 3d pose estimation, tune the threshold of surface classifier
 - 3d pose estimation is quite accurate on even blurry images, so we use that result for the pixel aligned implicit classification function which classifies surface inside/outside
 
 
-
+use better resolution in pifuHD
+- I used 512x512 (default) resolution, due to memory resource limitations, but I bet we could get some better results in higher resolution since we have 8k soccer videos
